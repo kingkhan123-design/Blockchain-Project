@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.msg{
+    width: 320px;
+    height: 420px;
+    background: transform;
+    color:#000;
+    top: 20%;
+    left: 50%;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    transform: translate(-50%, -5%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.bal{
+    width: 320px;
+    height: 220px;
+    color: #000;
+    top: 30%;
+    left: -50%;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    transform: translate(300%, 80%);
+    box-sizing: border-box;
+}
+.amt{
+    width: 320px;
+    height: 140px;
+    background: transform;
+    color: #fff;
+    top: 65%;
+    left: 18%;
+    position: relative;
+    transform: translate(-107%, 28%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+
+.amt input[type="text"]
+{
+background-origin: padding-box;
+
+outline: none;
+font-size: 17px;
+
+}
+
